@@ -1,17 +1,9 @@
 
 
 h1 {
-    color: blue;
+    color: #ffffff;
     font-size: 400px;
 }
-
-
-
-
-
-
-
-
 
 * {
     box-sizing: border-box;
@@ -47,14 +39,14 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+.navigation {
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px; 
+  }
 
 a {
     color: #ffffff;
