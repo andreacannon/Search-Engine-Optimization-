@@ -50,13 +50,14 @@ p {
     font-size: 20px;
 }
 
+/* allows navigation to span in a row */
 .navigation {
     flex-direction: row;
     display: flex;
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 10px; /* adds space to pad the navigation bar */
+    margin-top: 15px; /* adds space to pad the navigation bar */
   }
 
 .hero {
