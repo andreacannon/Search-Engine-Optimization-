@@ -52,7 +52,6 @@ p {
 
 /* allows navigation to span in a row */
 .navigation {
-    flex-direction: row;
     display: flex;
     position: absolute;
     top: 0;
